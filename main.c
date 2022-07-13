@@ -6,9 +6,10 @@
 
 int main()
 {
-    float x, f;
-    printf("Digite um numero real: ");
-    scanf("%f", &x);
+    int x;
+    float f;
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &x);
 
     f = sqrt(x) + (x / 2) + pow(x, 2);
 
